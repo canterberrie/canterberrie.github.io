@@ -1,0 +1,42 @@
+h1, h2 {
+  font-family: 'Pinyon Script', script;
+}
+
+h2 {
+  letter-spacing: .5px;
+}
+
+.hero-header {
+  color: $white;
+  text-shadow: 0 2px 6px rgba(0,0,0,.2);
+  margin: 3rem 0 0 0;
+}
+
+.small-header, .subheader, .slider-name, .slider-role {
+  font-family: 'Averia Serif Libre', Georgia, serif;
+}
+
+.small-header {
+  color: $white;
+  text-shadow: 0 2px 6px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  margin-top: -1.5rem;
+  font-size: 1.5rem;
+}
+
+.subheader {
+  color: $white;
+  font-size: 1rem;
+  text-shadow: 0 2px 6px rgba(0,0,0,.2);
+  margin: 0;
+}
+
+.section-header {
+  &.white {
+    color: $white;
+  }
+}
+
+// hr {
+//   background-image: url('assets/img/break-image.svg');
+// }
